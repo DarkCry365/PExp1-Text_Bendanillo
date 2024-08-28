@@ -1,0 +1,93 @@
+/* common class */
+.OBM{
+    font-family: "Audiowide", sans-serif;
+}
+.bold{
+    font-weight: bold !important;
+}
+.small-txt{
+    font-size: 20px;
+}
+
+.bor{
+    border:solid black;
+
+}
+
+.test-height{
+    height: 100px;
+}
+
+.wdt{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.cen-itm{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.cen-txt{
+    text-align: center;
+}
+.f-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.ver-gap{
+    margin-top:2em;
+}
+
+.big-txt{
+    font-size: 2em;
+
+}
+.blk{
+    color:black
+}
+.wt{
+    color: white !important;
+}
+.d-col{
+    flex-direction: column;
+}
+.no-des{
+    text-decoration: none;
+
+}
+
+
+/* nav */
+
+.shop-color{            /*nav button*/
+    color:black !important;
+    background-color: White !important;
+    border:solid !important;
+}
+.nav-gap{
+    gap: 10px;
+}
+
+/* contact */
+.con-height{
+    height: 80dvh;
+}
+.title{
+    font-size: 2em;
+}
+
+.icon{
+    height:30px
+}
+
+.contact-color{
+    background-color: rgb(25, 25, 25);
+}
+
+.header{
+    font-size: 23px;
+}
+
+

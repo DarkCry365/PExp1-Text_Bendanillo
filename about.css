@@ -1,0 +1,170 @@
+
+/* common class */
+.bold{
+    font-weight: bold !important;
+}
+.small-txt{
+    font-size: 20px;
+}
+
+.bor{
+    border:solid black;
+
+}
+
+.test-height{
+    height: 100px;
+}
+
+.wdt{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.cen-itm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cen-itm-j{
+    display: flex;
+    justify-content: center;
+}
+.cen-txt{
+    text-align: center;
+}
+.f-col{
+    flex-direction: column;
+}
+
+.ver-gap{
+    margin-top:2em;
+}
+
+.big-txt{
+    font-size: 2em;
+
+}
+.blk{
+    color:black
+}
+.wt{
+    color: white;
+}
+.no-des{
+    text-decoration: none;
+
+}
+
+
+
+/* nav */
+
+.shop-color{            /*nav button*/
+    color:white !important;
+    background-color: black !important;
+    border:double !important;
+}
+.shop-color:hover{          
+    color:black !important;
+    background-color: white !important;
+}
+.nav-gap{
+    gap: 10px;
+}
+.OBM{
+    font-family: "Audiowide", sans-serif;
+}
+
+
+/* SECTION1 */
+.sec1-title{
+    font-size: 3em;
+    color:black;
+}
+
+/* section 2 */
+.sec2-title{
+    font-size: 3em;
+}
+.sec2{
+    background-color: #211d1d;
+    height: 50em;
+}
+.sec2-con{
+    background-color: #d1d1d1;
+    height: 80%;
+}
+
+
+
+
+/* section 3 */
+.sec3-txt-info{
+    text-align: justify;
+}
+.sec3-sub2{
+    text-align: center;
+}
+.sec3-p{
+    padding:3vw;
+}
+
+/* section4 */
+.sec4-ttl{
+    font-size:2em;
+}
+.sec4-g{
+    gap:60px
+}
+.sec4-bg{
+    background-color: #514949;
+}
+
+.Card-Wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 0 .5em;
+}
+.sec4-vm{
+    background-color: #2b2828;
+    color:aliceblue;
+    padding: 2vw 1vw;
+    text-align: justify;
+
+}
+
+
+
+/* section5 */
+
+.diamond {
+    position: static;
+    width: 400px;
+    height: 400px;
+    background-color: #514949;
+    transform: rotate(45deg);
+}
+.sec5-height{
+    height:40vw;
+}
+.diamond-txt{
+    transform: rotate(-45deg);
+    font-size: 5em;
+
+}
+.sec5-bg{
+    background-color: antiquewhite;
+}
+
+/* footer */
+
+.icon{
+    height:30px
+}
+
+
+
