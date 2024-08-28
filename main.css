@@ -1,0 +1,182 @@
+
+/* common class */
+.OBM{
+    font-family: "Audiowide", sans-serif;
+}
+.bold{
+    font-weight: bold !important;
+}
+.small-txt{
+    font-size: 20px;
+}
+
+.bor{
+    border:solid black;
+
+}
+
+.test-height{
+    height: 100px;
+}
+
+.wdt{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+}
+
+.cen-itm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cen-itm-a{
+    display: flex;
+    justify-items: center;
+}
+.f-col{
+    flex-direction: column;
+}
+
+.cen-txt{
+    text-align: center;
+}
+
+.ver-gap{
+    margin-top:2em;
+}
+.blk{
+    color: black;
+}
+.wt{
+    color:white;
+}
+.no-des{
+    text-decoration: none;
+
+}
+.lt-g{
+    letter-spacing: 5px;
+}
+
+
+/* nav */
+
+.shop-color{            /*nav button*/
+    color:white !important;
+    background-color: black !important;
+    border:double !important;
+}
+.shop-color:hover{          
+    color:black !important;
+    background-color: white !important;
+}
+.subbtn{            /*nav button*/
+    color:white !important;
+    background-color: black !important;
+    border:double !important;
+
+}
+.subbtn:hover{          
+    color:black !important;
+    background-color: #757575 !important;
+}
+
+
+.nav-gap{
+    gap: 10px;
+}
+
+/* section1 */
+.subttl{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+}
+.subttl_m1{
+    padding-right: 5px;
+}
+
+.subttl_m2{
+    color:green
+}
+.subttl_m2_2{
+    color:green;
+    text-decoration: underline !important;
+}
+
+.main-container{
+    border:solid black;
+    height: 35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-title{
+    font-size:4em;
+    color: black;
+}
+
+/* sec2 */
+.sc2-col{
+    background-color: #757575;
+    height: 550px;
+}
+.sec2-img{
+    width: 90%;
+    height: auto;
+}
+.sec2-con{
+    width: 100%;
+}
+.sec2-header{
+    font-size:30px;
+    font-weight: 500;
+}
+.sec2-body{
+    font-size:20px;
+    font-weight: 400;
+    text-align: justify;
+}
+.sec2-mar{
+    height: 10vw;
+}
+
+/* sec3 */
+.sec3-header{
+    text-align: left;
+}
+.sec3-ttl{
+    margin-left: 3vw;
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+}
+.sec3-bd-ttl{
+    font-weight: 600;
+}
+.sec3-txt{
+    text-align: justify;
+    align-items: start;
+}
+
+/* section4 */
+.sec4-con{
+    height: 80%;
+}
+.sec4{
+    height: 300px;
+    background-color: #757575;
+}
+.sec4-ttl{
+    font-size: 3em;
+}
+
+
+/* footer */
+.icon{
+    height:30px
+}

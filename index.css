@@ -1,0 +1,72 @@
+.Title_cover{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(image/bed.jpg) !important;
+}
+
+.ttl_wrapper {
+    position: relative;
+    height: 40%;
+    width: 75%;
+}
+
+.ttl_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 60%;
+    border-radius: 100px;
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.bor{
+    border: solid !important;
+}
+
+.Title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    width: auto;
+}
+
+.Title_Text{
+    font-family: "Audiowide", sans-serif;
+    font-size: 5vw;
+}
+
+.btn_des{
+    background-color: black !important;
+    color: white !important;
+    font-size: 3dvh !important;
+    border: double !important;
+    border-width: 3.5px !important;
+}
+
+/* HOVER */
+.btn_des:hover{
+    color: black !important;
+    background-color: white !important;
+    border-style: double;
+}
+
+/* BUTTON */
+button{
+    height: 50px;
+    width: auto;
+}
